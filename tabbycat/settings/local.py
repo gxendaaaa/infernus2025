@@ -7,18 +7,18 @@ ON_LOCAL = True
 DATABASES = {
     'default': {
         'ENGINE'      : 'django.db.backends.postgresql',
-        'NAME'        : 'infernus',  # put your PostgreSQL database's name in here
-        'USER'        : 'admin',  # put your PostgreSQL login role's user name in here
-        'PASSWORD'    : 'infernuscup2025',  # put your PostgreSQL login role's password in here
-        'HOST'        : 'localhost',
-        'PORT'        : '5432',
+        'NAME'        : 'dfp2joofqdhkausmlzq2he5zyj4',  # put your PostgreSQL database's name in here
+        'USER'        : 'app_rw_3hiu7rhe7haid6npabop7wpxrq',  # put your PostgreSQL login role's user name in here
+        'PASSWORD'    : 'GuUw8N7FrCTX9snigVrVTCElDcI1Aw_R',  # put your PostgreSQL login role's password in here
+        'HOST'        : 'pg-tunnel.borealis-data.com',
+        'PORT'        : '51478',
         'CONN_MAX_AGE': None,
     }
 }
 
 # Replace this with your time zone, as defined in the IANA time zone database:
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-TIME_ZONE = 'Asia/Singapore'
+TIME_ZONE = 'Australia/Melbourne'
 
 # ==============================================================================
 # Overwrites main settings
