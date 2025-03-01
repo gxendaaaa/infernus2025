@@ -18,7 +18,7 @@ DATABASES = {
 
 # Replace this with your time zone, as defined in the IANA time zone database:
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-TIME_ZONE = 'Asia/Singapore'
+TIME_ZONE = 'Asia/Kuala_Lumpur'
 
 # ==============================================================================
 # Overwrites main settings
