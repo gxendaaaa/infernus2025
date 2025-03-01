@@ -33,7 +33,7 @@ READTHEDOCS_VERSION = 'v2.9.2'
 USE_I18N = True
 USE_TZ = True
 LANGUAGE_CODE = 'en'
-TIME_ZONE = os.environ.get('TIME_ZONE', 'Asia/Singapore')
+TIME_ZONE = os.environ.get('TIME_ZONE', 'Asia/Kuala_Lumpur')
 
 LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'locale'),
