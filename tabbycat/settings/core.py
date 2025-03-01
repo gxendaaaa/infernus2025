@@ -221,7 +221,7 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 # Static Files and Compilation
 # ==============================================================================
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'staticfiles'))
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )
