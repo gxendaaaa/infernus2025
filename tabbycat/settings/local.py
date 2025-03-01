@@ -7,11 +7,11 @@ ON_LOCAL = True
 DATABASES = {
     'default': {
         'ENGINE'      : 'django.db.backends.postgresql',
-        'NAME'        : 'dfp2joofqdhkausmlzq2he5zyj4',  # put your PostgreSQL database's name in here
-        'USER'        : 'app_rw_3hiu7rhe7haid6npabop7wpxrq',  # put your PostgreSQL login role's user name in here
-        'PASSWORD'    : 'GuUw8N7FrCTX9snigVrVTCElDcI1Aw_R',  # put your PostgreSQL login role's password in here
-        'HOST'        : 'pg-tunnel.borealis-data.com',
-        'PORT'        : '51478',
+        'NAME'        : 'd9ok0lbr0jm2kd',  # put your PostgreSQL database's name in here
+        'USER'        : 'u1f3l83hj2ktvh',  # put your PostgreSQL login role's user name in here
+        'PASSWORD'    : 'p635e11f5986c3f8e800204e47b2dbe25311ab2f5392b435cf60e875964893736',  # put your PostgreSQL login role's password in here
+        'HOST'        : 'ce0lkuo944ch99.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'PORT'        : '5432',
         'CONN_MAX_AGE': None,
     }
 }
