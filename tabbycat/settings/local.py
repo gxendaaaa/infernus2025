@@ -8,7 +8,7 @@ DATABASES = {
     'default': {
         'ENGINE'      : 'django.db.backends.postgresql',
         'NAME'        : 'dfp2joofqdhkausmlzq2he5zyj4',  # put your PostgreSQL database's name in here
-        'USER'        : '3hiu7rhe7haid6npabop7wpxrq',  # put your PostgreSQL login role's user name in here
+        'USER'        : 'app_rw_3hiu7rhe7haid6npabop7wpxrq',  # put your PostgreSQL login role's user name in here
         'PASSWORD'    : 'GuUw8N7FrCTX9snigVrVTCElDcI1Aw_R',  # put your PostgreSQL login role's password in here
         'HOST'        : 'pg-tunnel.borealis-data.com',
         'PORT'        : '51478',
@@ -18,7 +18,7 @@ DATABASES = {
 
 # Replace this with your time zone, as defined in the IANA time zone database:
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-TIME_ZONE = 'Australia/Melbourne'
+TIME_ZONE = 'Asia/Singapore'
 
 # ==============================================================================
 # Overwrites main settings
